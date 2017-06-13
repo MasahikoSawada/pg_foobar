@@ -1,7 +1,7 @@
 # pg_foobar
 foo bar parallel programing on PostgreSQL
 
-Supports 9.6 or later.
+Supports 9.6, 10-beta1.
 
 # Installation
 ```
@@ -15,8 +15,6 @@ $ su
 # Set up PostgreSQL server
 ```
 $ initdb -D $PGPATH -E UTF8 --no-locale
-$ vi /path/to/postgresql.conf
-shared_preload_libraries = 'pg_foobar'
 $ pg_ctl start
 $ psql
 =# CREATE EXTENSION pg_foobar;
