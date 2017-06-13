@@ -59,11 +59,11 @@ foobar_worker(dsm_segment *seg, shm_toc *toc)
 
 	/* foo */
 	for (i = 0; i < n_foo; i++)
-		elog(LOG, "worker %d foo %d", ParallelWorkerNumber, i);
+		elog(LOG, "worker [%d] foo %d", ParallelWorkerNumber, i);
 
 	/* bar */
 	for (i = 0; i < n_bar; i++)
-		elog(LOG, "worker %d bar %d", ParallelWorkerNumber, i);
+		elog(LOG, "worker [%d] bar %d", ParallelWorkerNumber, i);
 }
 
 Datum

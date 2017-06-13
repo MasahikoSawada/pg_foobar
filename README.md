@@ -38,18 +38,18 @@ For example,
 
 (1 row)
 $ cat /path/to/postgresql.conf
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 foo 0
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 foo 1
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 foo 0
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 foo 2
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 bar 0
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 foo 1
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 bar 1
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 foo 2
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 bar 2
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 bar 0
-2016-12-09 16:17:44.482 JST [47495] LOG:  worker 1 bar 3
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 bar 1
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 bar 2
-2016-12-09 16:17:44.482 JST [47496] LOG:  worker 0 bar 3
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] foo 0
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] foo 1
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] foo 0
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] foo 2
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] bar 0
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] foo 1
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] bar 1
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] foo 2
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] bar 2
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] bar 0
+2016-12-09 16:17:44.482 JST [47495] LOG:  worker [1] bar 3
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] bar 1
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] bar 2
+2016-12-09 16:17:44.482 JST [47496] LOG:  worker [0] bar 3
 ```
